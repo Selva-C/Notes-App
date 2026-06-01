@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0f0e11;
+  --surface: #1a1825;
+  --surface2: #231f30;
+  --border: rgba(255, 255, 255, 0.07);
+  --accent: #c8a96e;
+  --accent2: #7c6af7;
+  --text: #e8e4f0;
+  --muted: #7a7490;
+  --pin: #f0c040;
+  --archive: #60c8a0;
+  --trash: #e06070;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 10px; }
+
+/* Buttons reset */
+button {
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+}

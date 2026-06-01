@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--muted);
+}
+
+.icon {
+  font-size: 44px;
+  margin-bottom: 14px;
+  opacity: 0.35;
+}
+
+.container p {
+  font-size: 14px;
+  line-height: 1.6;
+}
